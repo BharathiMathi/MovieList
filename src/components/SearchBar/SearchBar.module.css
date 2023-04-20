@@ -1,0 +1,25 @@
+.container {
+  background-color: #f3f3f3b0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #80808036;
+}
+.search {
+  display: flex;
+  width: 100%;
+}
+.fa_search {
+  position: relative;
+  left: 3vh;
+  margin-top: 1.2vh;
+  font-size: 13px;
+}
+input {
+  border-radius: 2px;
+  padding-left: 4vh;
+  height: 4vh;
+  border: 1px solid #80808036;;
+  outline: none;
+  flex-grow: 1;
+}
